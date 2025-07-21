@@ -1,0 +1,22 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: salospayment_112
+name: Salos Payment - 112
+owner: user:account/shibam.dhar
+orgIdentifier: default
+projectIdentifier: sd2
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group/sample-group
+metadata:
+  description: This entity ids for Unison PayGate
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/workflow001
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
